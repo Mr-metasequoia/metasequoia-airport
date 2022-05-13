@@ -6,3 +6,5 @@ An airport maintained by Metasequoia
 
 姑且一用吧！
 
+v2ray订阅地址：https://raw.githubusercontent.com/Mr-metasequoia/metasequoia-airport/master/v2ray_main
+
