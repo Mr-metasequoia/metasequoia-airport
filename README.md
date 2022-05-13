@@ -8,3 +8,6 @@ An airport maintained by Metasequoia
 
 v2ray订阅地址：https://raw.githubusercontent.com/Mr-metasequoia/metasequoia-airport/master/v2ray_main
 
+clash订阅地址：https://raw.githubusercontent.com/Mr-metasequoia/metasequoia-airport/master/clash_main
+
+长期维护（要是不能用了你催催我？）
