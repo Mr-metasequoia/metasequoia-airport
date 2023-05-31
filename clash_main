@@ -14,333 +14,228 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"AquaFir_1","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"aes-128-gcm","uuid":"2e496758-950e-4549-8842-d5eec98d9fde","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"lv3.sharecentrepro.org"}}}
-  - {"name":"AquaFir_2\r","type":"ss","server":"85.208.108.60","port":3306,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"AquaFir_3\r","type":"ss","server":"85.208.108.60","port":8009,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
-  - {"name":"AquaFir_4","type":"vmess","server":"156.225.67.108","port":49920,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"AquaFir_5","type":"vmess","server":"172.67.217.222","port":80,"cipher":"auto","uuid":"2e496758-950e-4549-8842-d5eec98d9fde","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"dp3.scproxy.top"}}}
-  - {"name":"AquaFir_6\r","type":"ss","server":"85.208.108.60","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
-  - {"name":"AquaFir_7","type":"vmess","server":"142.0.139.58","port":57072,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"AquaFir_8","type":"vmess","server":"156.225.67.76","port":42882,"cipher":"auto","uuid":"3e016c4d-986e-42df-838c-6046f3d89ecf","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"AquaFir_9\r","type":"ss","server":"85.208.108.60","port":8091,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
-  - {"name":"AquaFir_10","type":"vmess","server":"156.225.67.68","port":45553,"cipher":"auto","uuid":"11117d4c-3b6a-4e76-8bcc-2b41b3e9ca93","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"AquaFir_11\r","type":"ss","server":"85.208.108.60","port":8888,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"AquaFir_12","type":"vmess","server":"156.225.67.61","port":49920,"cipher":"auto","uuid":"6193116d-96f9-4d7a-9be5-5bb06a69af0b","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"AquaFir_13","type":"vmess","server":"cf.noaries.de","port":2082,"cipher":"auto","uuid":"314c1387-618c-4689-97fc-4bc9a1ae5e05","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"ir3.nmsl.ninja"}}}
-  - {"name":"AquaFir_14","type":"vmess","server":"156.225.67.40","port":35611,"cipher":"auto","uuid":"de491802-233e-47f2-8c6c-d19bcf5bd56b","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"AquaFir_15\r","type":"ss","server":"85.208.108.60","port":7307,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
-  - {"name":"AquaFir_16\r","type":"ss","server":"85.208.108.60","port":7001,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
-  - {"name":"AquaFir_17","type":"vmess","server":"f-us1.wvvvv.eu.org","port":20,"cipher":"auto","uuid":"0da1d372-ec60-4b89-8a3f-79159438c6f0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"AquaFir_18\r","type":"ss","server":"85.208.108.60","port":6379,"password":"zDNVedRFPQexG9v","cipher":"aes-256-gcm"}
-  - {"name":"AquaFir_19","type":"vmess","server":"172.67.140.193","port":80,"cipher":"auto","uuid":"2e496758-950e-4549-8842-d5eec98d9fde","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"uk1.scproxy.top"}}}
-  - {"name":"AquaFir_20","type":"vmess","server":"v143.toddns.tk","port":80,"cipher":"auto","uuid":"a25881f3-967f-3265-bc7f-9e66857b016b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/jp143-d2xddxxj","headers":{"host":"v143.toddns.tk"}}}
-  - {"name":"AquaFir_21","type":"vmess","server":"cf.fovi.tk","port":2053,"cipher":"auto","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/eisasqa","headers":{"host":"foxpol.fovi.tk"}}}
-  - {"name":"AquaFir_22","type":"vmess","server":"172.67.86.87","port":80,"cipher":"auto","uuid":"2e496758-950e-4549-8842-d5eec98d9fde","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"uk1.scproxy.top"}}}
-  - {"name":"AquaFir_23","type":"vmess","server":"172.67.98.34","port":80,"cipher":"auto","uuid":"2e496758-950e-4549-8842-d5eec98d9fde","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"uk1.scproxy.top"}}}
-  - {"name":"AquaFir_24\r","type":"ss","server":"85.208.108.60","port":5601,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"AquaFir_25","type":"vmess","server":"172.67.84.93","port":80,"cipher":"auto","uuid":"2e496758-950e-4549-8842-d5eec98d9fde","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"uk1.scproxy.top"}}}
-  - {"name":"AquaFir_26","type":"vmess","server":"172.67.21.219","port":80,"cipher":"auto","uuid":"2e496758-950e-4549-8842-d5eec98d9fde","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"uk1.scproxy.top"}}}
-  - {"name":"AquaFir_27","type":"vmess","server":"172.64.155.90","port":80,"cipher":"auto","uuid":"34ff6bca-3f4e-4d30-d6d2-dfc8efb0cf9e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"212us.zikkcc.ga"}}}
-  - {"name":"AquaFir_28","type":"vmess","server":"172.67.113.82","port":80,"cipher":"auto","uuid":"2e496758-950e-4549-8842-d5eec98d9fde","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"uk1.scproxy.top"}}}
-  - {"name":"AquaFir_29","type":"vmess","server":"172.67.127.123","port":80,"cipher":"auto","uuid":"2e496758-950e-4549-8842-d5eec98d9fde","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"dp1.scproxy.top"}}}
-  - {"name":"AquaFir_30","type":"vmess","server":"38.54.250.51","port":51431,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"AquaFir_31","type":"vmess","server":"156.225.67.152","port":37331,"cipher":"auto","uuid":"a7fa8f14-4fb6-4280-9005-d6bbe99c5da9","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"AquaFir_32\r","type":"ss","server":"85.208.108.60","port":6697,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
-  - {"name":"AquaFir_33","type":"vmess","server":"172.67.199.253","port":80,"cipher":"auto","uuid":"2e496758-950e-4549-8842-d5eec98d9fde","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"uk1.scproxy.top"}}}
-  - {"name":"AquaFir_34","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"aes-128-gcm","uuid":"2e496758-950e-4549-8842-d5eec98d9fde","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"lv3.sharecentrepro.org"}}}
-  - {"name":"AquaFir_35","type":"vmess","server":"192.74.228.174","port":42857,"cipher":"auto","uuid":"051b844f-efe3-4847-92aa-66b5de0b6d4e","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"AquaFir_36","type":"vmess","server":"156.225.67.200","port":47811,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"AquaFir_37","type":"vmess","server":"140.99.149.43","port":56882,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"AquaFir_38","type":"vmess","server":"142.4.126.74","port":31002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"AquaFir_39","type":"vmess","server":"142.4.127.152","port":50042,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"AquaFir_40","type":"vmess","server":"156.225.67.115","port":34919,"cipher":"auto","uuid":"84d1de11-ce12-4a15-8312-1338356d4ac4","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"AquaFir_41","type":"vmess","server":"198.2.203.35","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"AquaFir_42","type":"vmess","server":"142.4.99.70","port":41169,"cipher":"auto","uuid":"b65da4af-a12a-4a59-9316-4549e12ba62c","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"水杉_美国_1","type":"vmess","server":"142.4.127.5","port":53013,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"水杉_美国_2","type":"vmess","server":"142.0.130.242","port":47988,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"水杉_新加坡_3","type":"ss","server":"sgp01.669990.xyz","port":25567,"password":"b08c30a2-7d68-5e25-4eed-4b9851bfa776","cipher":"aes-256-gcm"}
+  - {"name":"水杉_哥斯达黎加_4","type":"vmess","server":"190.93.245.228","port":2052,"cipher":"auto","uuid":"0227edc4-8735-4370-ac42-4e8147920f0b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qwer10","headers":{"host":"tou.vtcss.top"}}}
+  - {"name":"水杉_中国_5","type":"ss","server":"hk1.ducati998.top","port":20626,"password":"1a739d13-64db-46dd-959c-c5dc6659f8d8","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"水杉_美国_6","type":"vmess","server":"156.225.67.126","port":443,"cipher":"auto","uuid":"3a3c8a9c-334e-4360-adb8-a80a57ddcbbf","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/1684492536236","headers":{"host":"www.16046626.xyz"}}}
+  - {"name":"水杉_中国_7","type":"vmess","server":"183.237.20.158","port":40095,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"水杉_美国_8","type":"vmess","server":"142.0.130.8","port":53452,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"水杉_哥斯达黎加_10","type":"vmess","server":"190.93.246.183","port":2052,"cipher":"auto","uuid":"0227edc4-8735-4370-ac42-4e8147920f0b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qwer10","headers":{"host":"tou.vtcss.top"}}}
+  - {"name":"水杉_中国_11","type":"ss","server":"jp08.ducati998.top","port":45920,"password":"1a739d13-64db-46dd-959c-c5dc6659f8d8","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"水杉_美国_12","type":"vmess","server":"142.4.97.75","port":44942,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"水杉_哥斯达黎加_13","type":"vmess","server":"190.93.245.64","port":2052,"cipher":"auto","uuid":"0227edc4-8735-4370-ac42-4e8147920f0b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qwer10","headers":{"host":"tou.vtcss.top"}}}
+  - {"name":"水杉_美国_14","type":"vmess","server":"103.21.244.199","port":8080,"cipher":"auto","uuid":"9588cb0f-5102-4e66-d5fb-f96cba9acdda","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qazxcv03","headers":{"host":"tou.vtcss.top"}}}
+  - {"name":"水杉_美国_15","type":"vmess","server":"192.74.242.138","port":44667,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"水杉_美国_16","type":"vmess","server":"192.74.231.172","port":49202,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"水杉_香港_17","type":"vmess","server":"156.227.6.7","port":43692,"cipher":"auto","uuid":"d3b43b85-1b50-4cb5-9738-8d65bae2c95d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"水杉_美国_18","type":"vmess","server":"cdn.noice.id","port":80,"cipher":"auto","uuid":"8bb07c55-0ef5-4d69-b131-fd9bab420ae8","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"8fhq6a.aiossh.my.id"}}}
+  - {"name":"水杉_中国_19","type":"vmess","server":"120.226.50.76","port":45070,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"水杉_美国_20","type":"vmess","server":"140.99.59.253","port":55512,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"水杉_印度_21","type":"ss","server":"172.105.40.52","port":2052,"password":"1196c1f1-ac69-4d3f-bbbb-722517323170","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"水杉_中国_22","type":"ss","server":"jp05.ducati998.top","port":41128,"password":"1a739d13-64db-46dd-959c-c5dc6659f8d8","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"水杉_美国_23","type":"ss","server":"173.255.241.181","port":2052,"password":"1196c1f1-ac69-4d3f-bbbb-722517323170","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"水杉_美国_24","type":"vmess","server":"cf-lt.sharecentre.online","port":8080,"cipher":"auto","uuid":"4427eafb-3b3a-4265-9a32-fe0ea9cfd736","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v01.ssrsub.com"}}}
+  - {"name":"水杉_美国_25","type":"trojan","server":"163.123.192.154","port":443,"udp":true,"password":"5f70213f-4681-4f70-a31b-42f37402cd66","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"水杉_美国_26","type":"vmess","server":"142.4.97.77","port":44942,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"水杉_美国_27","type":"vmess","server":"142.4.126.75","port":31002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"水杉_美国_28","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Amsterdam.kotick.site"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - AquaFir_1
-      - "AquaFir_2\r"
-      - "AquaFir_3\r"
-      - AquaFir_4
-      - AquaFir_5
-      - "AquaFir_6\r"
-      - AquaFir_7
-      - AquaFir_8
-      - "AquaFir_9\r"
-      - AquaFir_10
-      - "AquaFir_11\r"
-      - AquaFir_12
-      - AquaFir_13
-      - AquaFir_14
-      - "AquaFir_15\r"
-      - "AquaFir_16\r"
-      - AquaFir_17
-      - "AquaFir_18\r"
-      - AquaFir_19
-      - AquaFir_20
-      - AquaFir_21
-      - AquaFir_22
-      - AquaFir_23
-      - "AquaFir_24\r"
-      - AquaFir_25
-      - AquaFir_26
-      - AquaFir_27
-      - AquaFir_28
-      - AquaFir_29
-      - AquaFir_30
-      - AquaFir_31
-      - "AquaFir_32\r"
-      - AquaFir_33
-      - AquaFir_34
-      - AquaFir_35
-      - AquaFir_36
-      - AquaFir_37
-      - AquaFir_38
-      - AquaFir_39
-      - AquaFir_40
-      - AquaFir_41
-      - AquaFir_42
+      - 水杉_美国_1
+      - 水杉_美国_2
+      - 水杉_新加坡_3
+      - 水杉_哥斯达黎加_4
+      - 水杉_中国_5
+      - 水杉_美国_6
+      - 水杉_中国_7
+      - 水杉_美国_8
+      - 水杉_哥斯达黎加_10
+      - 水杉_中国_11
+      - 水杉_美国_12
+      - 水杉_哥斯达黎加_13
+      - 水杉_美国_14
+      - 水杉_美国_15
+      - 水杉_美国_16
+      - 水杉_香港_17
+      - 水杉_美国_18
+      - 水杉_中国_19
+      - 水杉_美国_20
+      - 水杉_印度_21
+      - 水杉_中国_22
+      - 水杉_美国_23
+      - 水杉_美国_24
+      - 水杉_美国_25
+      - 水杉_美国_26
+      - 水杉_美国_27
+      - 水杉_美国_28
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - AquaFir_1
-      - "AquaFir_2\r"
-      - "AquaFir_3\r"
-      - AquaFir_4
-      - AquaFir_5
-      - "AquaFir_6\r"
-      - AquaFir_7
-      - AquaFir_8
-      - "AquaFir_9\r"
-      - AquaFir_10
-      - "AquaFir_11\r"
-      - AquaFir_12
-      - AquaFir_13
-      - AquaFir_14
-      - "AquaFir_15\r"
-      - "AquaFir_16\r"
-      - AquaFir_17
-      - "AquaFir_18\r"
-      - AquaFir_19
-      - AquaFir_20
-      - AquaFir_21
-      - AquaFir_22
-      - AquaFir_23
-      - "AquaFir_24\r"
-      - AquaFir_25
-      - AquaFir_26
-      - AquaFir_27
-      - AquaFir_28
-      - AquaFir_29
-      - AquaFir_30
-      - AquaFir_31
-      - "AquaFir_32\r"
-      - AquaFir_33
-      - AquaFir_34
-      - AquaFir_35
-      - AquaFir_36
-      - AquaFir_37
-      - AquaFir_38
-      - AquaFir_39
-      - AquaFir_40
-      - AquaFir_41
-      - AquaFir_42
+      - 水杉_美国_1
+      - 水杉_美国_2
+      - 水杉_新加坡_3
+      - 水杉_哥斯达黎加_4
+      - 水杉_中国_5
+      - 水杉_美国_6
+      - 水杉_中国_7
+      - 水杉_美国_8
+      - 水杉_哥斯达黎加_10
+      - 水杉_中国_11
+      - 水杉_美国_12
+      - 水杉_哥斯达黎加_13
+      - 水杉_美国_14
+      - 水杉_美国_15
+      - 水杉_美国_16
+      - 水杉_香港_17
+      - 水杉_美国_18
+      - 水杉_中国_19
+      - 水杉_美国_20
+      - 水杉_印度_21
+      - 水杉_中国_22
+      - 水杉_美国_23
+      - 水杉_美国_24
+      - 水杉_美国_25
+      - 水杉_美国_26
+      - 水杉_美国_27
+      - 水杉_美国_28
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - AquaFir_1
-      - "AquaFir_2\r"
-      - "AquaFir_3\r"
-      - AquaFir_4
-      - AquaFir_5
-      - "AquaFir_6\r"
-      - AquaFir_7
-      - AquaFir_8
-      - "AquaFir_9\r"
-      - AquaFir_10
-      - "AquaFir_11\r"
-      - AquaFir_12
-      - AquaFir_13
-      - AquaFir_14
-      - "AquaFir_15\r"
-      - "AquaFir_16\r"
-      - AquaFir_17
-      - "AquaFir_18\r"
-      - AquaFir_19
-      - AquaFir_20
-      - AquaFir_21
-      - AquaFir_22
-      - AquaFir_23
-      - "AquaFir_24\r"
-      - AquaFir_25
-      - AquaFir_26
-      - AquaFir_27
-      - AquaFir_28
-      - AquaFir_29
-      - AquaFir_30
-      - AquaFir_31
-      - "AquaFir_32\r"
-      - AquaFir_33
-      - AquaFir_34
-      - AquaFir_35
-      - AquaFir_36
-      - AquaFir_37
-      - AquaFir_38
-      - AquaFir_39
-      - AquaFir_40
-      - AquaFir_41
-      - AquaFir_42
+      - 水杉_美国_1
+      - 水杉_美国_2
+      - 水杉_新加坡_3
+      - 水杉_哥斯达黎加_4
+      - 水杉_中国_5
+      - 水杉_美国_6
+      - 水杉_中国_7
+      - 水杉_美国_8
+      - 水杉_哥斯达黎加_10
+      - 水杉_中国_11
+      - 水杉_美国_12
+      - 水杉_哥斯达黎加_13
+      - 水杉_美国_14
+      - 水杉_美国_15
+      - 水杉_美国_16
+      - 水杉_香港_17
+      - 水杉_美国_18
+      - 水杉_中国_19
+      - 水杉_美国_20
+      - 水杉_印度_21
+      - 水杉_中国_22
+      - 水杉_美国_23
+      - 水杉_美国_24
+      - 水杉_美国_25
+      - 水杉_美国_26
+      - 水杉_美国_27
+      - 水杉_美国_28
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - AquaFir_1
-      - "AquaFir_2\r"
-      - "AquaFir_3\r"
-      - AquaFir_4
-      - AquaFir_5
-      - "AquaFir_6\r"
-      - AquaFir_7
-      - AquaFir_8
-      - "AquaFir_9\r"
-      - AquaFir_10
-      - "AquaFir_11\r"
-      - AquaFir_12
-      - AquaFir_13
-      - AquaFir_14
-      - "AquaFir_15\r"
-      - "AquaFir_16\r"
-      - AquaFir_17
-      - "AquaFir_18\r"
-      - AquaFir_19
-      - AquaFir_20
-      - AquaFir_21
-      - AquaFir_22
-      - AquaFir_23
-      - "AquaFir_24\r"
-      - AquaFir_25
-      - AquaFir_26
-      - AquaFir_27
-      - AquaFir_28
-      - AquaFir_29
-      - AquaFir_30
-      - AquaFir_31
-      - "AquaFir_32\r"
-      - AquaFir_33
-      - AquaFir_34
-      - AquaFir_35
-      - AquaFir_36
-      - AquaFir_37
-      - AquaFir_38
-      - AquaFir_39
-      - AquaFir_40
-      - AquaFir_41
-      - AquaFir_42
+      - 水杉_美国_1
+      - 水杉_美国_2
+      - 水杉_新加坡_3
+      - 水杉_哥斯达黎加_4
+      - 水杉_中国_5
+      - 水杉_美国_6
+      - 水杉_中国_7
+      - 水杉_美国_8
+      - 水杉_哥斯达黎加_10
+      - 水杉_中国_11
+      - 水杉_美国_12
+      - 水杉_哥斯达黎加_13
+      - 水杉_美国_14
+      - 水杉_美国_15
+      - 水杉_美国_16
+      - 水杉_香港_17
+      - 水杉_美国_18
+      - 水杉_中国_19
+      - 水杉_美国_20
+      - 水杉_印度_21
+      - 水杉_中国_22
+      - 水杉_美国_23
+      - 水杉_美国_24
+      - 水杉_美国_25
+      - 水杉_美国_26
+      - 水杉_美国_27
+      - 水杉_美国_28
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - AquaFir_1
-      - "AquaFir_2\r"
-      - "AquaFir_3\r"
-      - AquaFir_4
-      - AquaFir_5
-      - "AquaFir_6\r"
-      - AquaFir_7
-      - AquaFir_8
-      - "AquaFir_9\r"
-      - AquaFir_10
-      - "AquaFir_11\r"
-      - AquaFir_12
-      - AquaFir_13
-      - AquaFir_14
-      - "AquaFir_15\r"
-      - "AquaFir_16\r"
-      - AquaFir_17
-      - "AquaFir_18\r"
-      - AquaFir_19
-      - AquaFir_20
-      - AquaFir_21
-      - AquaFir_22
-      - AquaFir_23
-      - "AquaFir_24\r"
-      - AquaFir_25
-      - AquaFir_26
-      - AquaFir_27
-      - AquaFir_28
-      - AquaFir_29
-      - AquaFir_30
-      - AquaFir_31
-      - "AquaFir_32\r"
-      - AquaFir_33
-      - AquaFir_34
-      - AquaFir_35
-      - AquaFir_36
-      - AquaFir_37
-      - AquaFir_38
-      - AquaFir_39
-      - AquaFir_40
-      - AquaFir_41
-      - AquaFir_42
+      - 水杉_美国_1
+      - 水杉_美国_2
+      - 水杉_新加坡_3
+      - 水杉_哥斯达黎加_4
+      - 水杉_中国_5
+      - 水杉_美国_6
+      - 水杉_中国_7
+      - 水杉_美国_8
+      - 水杉_哥斯达黎加_10
+      - 水杉_中国_11
+      - 水杉_美国_12
+      - 水杉_哥斯达黎加_13
+      - 水杉_美国_14
+      - 水杉_美国_15
+      - 水杉_美国_16
+      - 水杉_香港_17
+      - 水杉_美国_18
+      - 水杉_中国_19
+      - 水杉_美国_20
+      - 水杉_印度_21
+      - 水杉_中国_22
+      - 水杉_美国_23
+      - 水杉_美国_24
+      - 水杉_美国_25
+      - 水杉_美国_26
+      - 水杉_美国_27
+      - 水杉_美国_28
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - AquaFir_1
-      - "AquaFir_2\r"
-      - "AquaFir_3\r"
-      - AquaFir_4
-      - AquaFir_5
-      - "AquaFir_6\r"
-      - AquaFir_7
-      - AquaFir_8
-      - "AquaFir_9\r"
-      - AquaFir_10
-      - "AquaFir_11\r"
-      - AquaFir_12
-      - AquaFir_13
-      - AquaFir_14
-      - "AquaFir_15\r"
-      - "AquaFir_16\r"
-      - AquaFir_17
-      - "AquaFir_18\r"
-      - AquaFir_19
-      - AquaFir_20
-      - AquaFir_21
-      - AquaFir_22
-      - AquaFir_23
-      - "AquaFir_24\r"
-      - AquaFir_25
-      - AquaFir_26
-      - AquaFir_27
-      - AquaFir_28
-      - AquaFir_29
-      - AquaFir_30
-      - AquaFir_31
-      - "AquaFir_32\r"
-      - AquaFir_33
-      - AquaFir_34
-      - AquaFir_35
-      - AquaFir_36
-      - AquaFir_37
-      - AquaFir_38
-      - AquaFir_39
-      - AquaFir_40
-      - AquaFir_41
-      - AquaFir_42
+      - 水杉_美国_1
+      - 水杉_美国_2
+      - 水杉_新加坡_3
+      - 水杉_哥斯达黎加_4
+      - 水杉_中国_5
+      - 水杉_美国_6
+      - 水杉_中国_7
+      - 水杉_美国_8
+      - 水杉_哥斯达黎加_10
+      - 水杉_中国_11
+      - 水杉_美国_12
+      - 水杉_哥斯达黎加_13
+      - 水杉_美国_14
+      - 水杉_美国_15
+      - 水杉_美国_16
+      - 水杉_香港_17
+      - 水杉_美国_18
+      - 水杉_中国_19
+      - 水杉_美国_20
+      - 水杉_印度_21
+      - 水杉_中国_22
+      - 水杉_美国_23
+      - 水杉_美国_24
+      - 水杉_美国_25
+      - 水杉_美国_26
+      - 水杉_美国_27
+      - 水杉_美国_28
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -363,48 +258,33 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - AquaFir_1
-      - "AquaFir_2\r"
-      - "AquaFir_3\r"
-      - AquaFir_4
-      - AquaFir_5
-      - "AquaFir_6\r"
-      - AquaFir_7
-      - AquaFir_8
-      - "AquaFir_9\r"
-      - AquaFir_10
-      - "AquaFir_11\r"
-      - AquaFir_12
-      - AquaFir_13
-      - AquaFir_14
-      - "AquaFir_15\r"
-      - "AquaFir_16\r"
-      - AquaFir_17
-      - "AquaFir_18\r"
-      - AquaFir_19
-      - AquaFir_20
-      - AquaFir_21
-      - AquaFir_22
-      - AquaFir_23
-      - "AquaFir_24\r"
-      - AquaFir_25
-      - AquaFir_26
-      - AquaFir_27
-      - AquaFir_28
-      - AquaFir_29
-      - AquaFir_30
-      - AquaFir_31
-      - "AquaFir_32\r"
-      - AquaFir_33
-      - AquaFir_34
-      - AquaFir_35
-      - AquaFir_36
-      - AquaFir_37
-      - AquaFir_38
-      - AquaFir_39
-      - AquaFir_40
-      - AquaFir_41
-      - AquaFir_42
+      - 水杉_美国_1
+      - 水杉_美国_2
+      - 水杉_新加坡_3
+      - 水杉_哥斯达黎加_4
+      - 水杉_中国_5
+      - 水杉_美国_6
+      - 水杉_中国_7
+      - 水杉_美国_8
+      - 水杉_哥斯达黎加_10
+      - 水杉_中国_11
+      - 水杉_美国_12
+      - 水杉_哥斯达黎加_13
+      - 水杉_美国_14
+      - 水杉_美国_15
+      - 水杉_美国_16
+      - 水杉_香港_17
+      - 水杉_美国_18
+      - 水杉_中国_19
+      - 水杉_美国_20
+      - 水杉_印度_21
+      - 水杉_中国_22
+      - 水杉_美国_23
+      - 水杉_美国_24
+      - 水杉_美国_25
+      - 水杉_美国_26
+      - 水杉_美国_27
+      - 水杉_美国_28
 
 rules:
 # 本地/局域网地址
